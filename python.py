@@ -24,7 +24,7 @@ print(min(pole + pole1))
 print(max(pole + pole1))
 
 pole_auto=list(range(1,51))
-random.sh(pole_auto)
+random.shuffle(pole_auto)
 print(pole_auto)
 
 
