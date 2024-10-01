@@ -1,3 +1,4 @@
+import random
 pole = [1,2,3,4,5,6,7,8,9,10]
 print(pole)
 #
@@ -23,7 +24,7 @@ print(min(pole + pole1))
 print(max(pole + pole1))
 
 pole_auto=list(range(1,51))
-random.shuffle(pole_auto)
+random.sh(pole_auto)
 print(pole_auto)
 
 
