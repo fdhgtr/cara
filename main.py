@@ -33,7 +33,7 @@ print(pole2)
 print(sum(pole1+pole2))
 
 
-soucet = pole1[1] + pole1[5]
+soucet = pole2[1] + pole2[5]
 print(soucet)
 
 pole_auto=list(range(1,9))
