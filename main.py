@@ -1,9 +1,22 @@
 import random
-pole = [1,2,3,4,5,6,7,8,9,10]
+pole = [1,22,13,45,9,61,37,89,4,58]
 print(pole)
-#
-pole[5]=7
+
+
+prvni = pole[0]
+prostedni = pole[len(pole) // 2]
+posledni = pole[-1]
+
+print("První hodnota:", prvni)
+print("Prostřední hodnota:", prostedni)
+print("Poslední hodnota:", posledni)
+
+pole[5]=34
 print(pole)
+
+pole7 = pole[7]
+print( pole7)
+
 
 print(len(pole))
 print(sum(pole))
